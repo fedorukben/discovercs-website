@@ -1,0 +1,89 @@
+body {
+	background-color: black;
+}
+
+h1 {
+	color: white;
+	font-size: 72px;
+	font-family: "Courier New", monospace;
+	text-align: center;
+	font-weight: bold;
+}
+.h1-cyan {
+	color: cyan;
+}
+.h1-magenta {
+	color: magenta;
+}
+
+h6 {
+	color: white;
+	font-size: 16px;
+	font-family: "Courier New", monospace;
+	text-align: left;
+	font-weight: bold;
+}
+.h6-red {
+	color: red;
+}
+.h6-green {
+	color: lime;
+}
+
+p {
+	color: white;
+	font-size: 16px;
+	font-family: "Courier New", monospace;
+	text-align: left;
+	font-weight: normal;
+}
+.comment {
+	color: green;
+	padding-left: 50px;
+}
+
+.back-btn {
+	text-align: center;
+}
+
+.back-btn a {
+	color: white;
+	text-align: center;
+	font-size: 72px;
+	font-family: "Courier New", monospace;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+}
+.navbar li {
+	display: inline;
+	float: left;
+	border-right: 1px solid white;
+}
+.navbar li:last-child {
+	border-right: none;
+}
+.navbar li a {
+	display: block;
+	color: white;
+	font-weight: bold;
+	font-size: 28px;
+	font-family: "Courier New", monospace;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.navbar li a:hover {
+	background-color: lightgrey;
+}
+
+.active {
+	background-color: magenta;
+}
