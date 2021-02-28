@@ -9,12 +9,6 @@ h1 {
 	text-align: center;
 	font-weight: bold;
 }
-.h1-cyan {
-	color: cyan;
-}
-.h1-magenta {
-	color: magenta;
-}
 
 h6 {
 	color: white;
@@ -22,12 +16,6 @@ h6 {
 	font-family: "Courier New", monospace;
 	text-align: left;
 	font-weight: bold;
-}
-.h6-red {
-	color: red;
-}
-.h6-green {
-	color: lime;
 }
 
 p {
@@ -40,19 +28,6 @@ p {
 .comment {
 	color: green;
 	padding-left: 50px;
-}
-
-.back-btn {
-	text-align: center;
-}
-
-.back-btn a {
-	color: white;
-	text-align: center;
-	font-size: 72px;
-	font-family: "Courier New", monospace;
-	font-weight: bold;
-	text-decoration: none;
 }
 
 .navbar {
