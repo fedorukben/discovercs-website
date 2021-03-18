@@ -62,3 +62,11 @@ p {
 .active {
 	background-color: magenta;
 }
+
+input {
+	background-color: black;
+	color: white;
+	font-family: "Courier New", monospace;
+	font-weight: bold;
+	font-size: 14px;
+}
