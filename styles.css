@@ -56,7 +56,7 @@ p {
 	text-decoration: none;
 }
 .navbar li a:hover {
-	background-color: lightgrey;
+	background-color: #222222;
 }
 
 .active {
@@ -69,4 +69,23 @@ input {
 	font-family: "Courier New", monospace;
 	font-weight: bold;
 	font-size: 14px;
+	border: 1px solid black;
+}
+input:hover {
+	background-color: #222222;
+}
+
+button {
+	background-color: black;
+	color: white;
+	font-family: "Courier New", monospace;
+	font-weight: bold;
+	font-size: 14px;
+	border: 1px solid black;
+}
+button:hover {
+	background-color: #222222;
+}
+button:active {
+	background-color: magenta;
 }
