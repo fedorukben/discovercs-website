@@ -18,6 +18,14 @@ h6 {
 	font-weight: bold;
 }
 
+h3 {
+	color: white;
+	font-size: 40px;
+	font-family: "Courier New", monospace;
+	text-align: left;
+	font-weight: bold;
+}
+
 p {
 	color: white;
 	font-size: 16px;
@@ -27,6 +35,9 @@ p {
 }
 .comment {
 	color: green;
+	padding-left: 50px;
+}
+.tabbed {
 	padding-left: 50px;
 }
 
@@ -88,4 +99,8 @@ button:hover {
 }
 button:active {
 	background-color: magenta;
+}
+
+hr {
+	color: green;
 }
